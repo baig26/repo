@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>My Portfolio</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <!-- Bootstrap CSS -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+          <!-- Custom CSS -->
+          <link rel="stylesheet" href="style.css">
+          <!-- Font Awesome -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     </head>
+     <body>
+          <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+               <a class="navbar-brand" href="#">My Portfolio</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                         <li class="nav-item active">
+                              <a class="nav-link" href="#">Home</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#projects">Projects</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#services">Services</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" data-toggle="modal" data-target="#contactModal">
+                                   Contact Me
+                              </a>				</li>
+                    </ul>
+               </div>
+          </nav>
+     </section>
+          <!-- Header Section -->
+          <header >
+               <<link rel="shortcut icon" href="#"/>
+               <div class="container-fluid">
+                    <div class="row">
+                         <div class="col-md-6">
+                              <h2>Hi, I'm M M Aatifulla Baig!</h2>
+                              <h4>I'm a Web Developer</h4>
+                              <p>Welcome to my portfolio website. Here you can find information about my skills, projects, and contact details.</p>
+                              <br>
+                              <center>
+                                   <ul class="social-icons">
+                                        <li><a href="https://instagram.com/mm_aatifulla_baig/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.twitter.com/aatifullabigmm/"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/m-m-aatifulla-baig/"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://www.github.com/Aatifullabaig/"><i class="fab fa-github"></i></a></li>
+                                   </ul></center><br><br>
+                         </div>
+                         <div class="col-md-6">
+                              <img src="images/1681300151635.jpg" alt='C:\Users\Aatifulla Baig\Documents\NetBeansProjects\Mywebpage\web\1681300151635.jpg' width="300 pixes" height="auto" class="img-fluid" id="header-img">
+                         </div>
+                    </div>
+               </div>
+
+          </header>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <!-- Projects Section -->
+
+          <section id="projects" class="bg-light section" data-spy="scroll" data-target="#menu">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-md-12">
+                              <h2>Projects</h2>
+                              <hr>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-md-4">
+                              <div class="card" data-aos="fade-up" data-aos-duration="750" data-aos-delay="0" data-aos-offset="0">
+                                   <img src="https://via.placeholder.com/500x300" alt="Project 1" class="card-img-top">
+                                   <div class="card-body"><center>
+                                             <h5 class="card-title">Movie ticket booking</h5>
+                                             <p class="card-text">This project, built using JSP, HTML, and Bootstrap, allows admins to manage a theater while also enabling users to book movie tickets.<a href="#" data-toggle="modal" data-target="#project1">Learn more</a></p>
+                                             <a href="#" class="btn btn-primary">Read More</a>
+                                        </center>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-md-4">
+                              <div class="card" data-aos="fade-up" data-aos-duration="750" data-aos-delay="250">
+                                   <img src="images/project 2.jpg" alt="Project 2" class="card-img-top">
+                                   <div class="card-body"><center>
+                                             <h5 class="card-title">Online Course Registration</h5>
+                                             <p class="card-text">An online registration system was created for students to save time and money by using a user-friendly form.<a href="#" data-toggle="modal" data-target="#project2">Learn more</a></p>
+                                             <a href="https://github.com/Aatifullabaig/Online-Course-Registration" class="btn btn-primary">Visit site</a>
+                                        </center>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-md-4">
+                              <div class="card" data-aos="fade-up" data-aos-duration="750" data-aos-delay="500">
+                                   <img src="images/project 3.jpg" alt="Project 3" class="card-img-top">
+                                   <div class="card-body"><center>
+                                             <h5 class="card-title">Emotion detection using real time video</h5>
+                                             <p class="card-text">The goal of this project is to recognize human facial expressions and use this feature in future projects..<a href="#" data-toggle="modal" data-target="#project3">Learn more</a></p>
+                                             <a href="https://github.com/Aatifullabaig/Emoji-creation-using-real-time-video-capture" class="btn btn-primary">Visit Site</a>
+                                        </center>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="webDesignModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                         <div class="modal-content">
+                              <div class="modal-header">
+                                   <h5 class="modal-title" id="project1Label">Movie ticket booking</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                              </div>
+                              <div class="modal-body">
+                                   <p>The project is a web-based application created using JSP, HTML, and Bootstrap. It allows administrators to manage theaters and users to book movie tickets. The user-friendly interface enables customers to select their desired movie, showtime, and seat. The system also provides real-time updates on available seats, seat selection, and payment options. The admin panel allows theater managers to add, modify, or delete movie listings, manage the seating capacity, and track user activity. The project is designed to streamline the movie ticket booking process 
+                                        for users and provide an efficient and user-friendly experience for theater administrators.</p>
+                                   <p><a data-dismiss="modal" href="#" data-toggle="modal" data-target="#contactModal">Contact us</a> to know more about the project</p>
+                              </div>
+                              <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+               <!-- project 2 Modal -->
+               <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="seoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                         <div class="modal-content">
+                              <div class="modal-header">
+                                   <h5 class="modal-title" id="project2Label">Online Course Registration</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                   </button>
+                              </div>
+                              <div class="modal-body">
+                                   <p>A student registration system was developed with an easy-to-use online form, allowing students to register themselves without the need for multiple manual forms. The user-friendly design was intended to save time and money, as filling out the form online was more efficient compared to the laborious process of filling out several manual forms. The system aimed to simplify the registration process for students, making it accessible and streamlined.</p>
+                                   <p><a data-dismiss="modal" href="#" data-toggle="modal" data-target="#contactModal">Contact us</a> to know more about the project</p>
+                              </div>
+                              <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <!-- project 3 Modal -->
+               <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="ecommerceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                         <div class="modal-content">
+                              <div class="modal-header">
+                                   <h5 class="modal-title" id="project3Label">Emotion detection using real time video</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                   </button>
+                              </div>
+                              <div class="modal-body">
+                                   <p>Emotion recognition systems aim to apply emotional knowledge to enhance human-computer communication and improve user experience. By enabling computers to sense users' emotional states and react accordingly, communication can become more satisfying. These systems can also be developed for various medical applications, such as aggression detection, stress detection, and the detection of conditions
+                                        like autistic disorder, Asperger's syndrome, hepatolenticular degeneration, and frustration.</p>
+                                   <p><a data-dismiss="modal" href="#" data-toggle="modal" data-target="#contactModal">Contact us</a> to know more about the project</p>
+                              </div>
+                              <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <br>
+
+          <br>
+          <section id="services" class="bg-light section" data-spy="scroll" data-target="#menu">
+               <br>
+               <br>
+               <br>
+               <div class="row">
+                    <div class="col-md-12"><center>
+                              <h2>Our Services</h2>
+                              <hr>
+                         </center>
+                    </div></div>
+               <br>
+               <br>
+
+               <div class="container pt-4">
+                    <div class="row text-center">
+                         <div class="col-md-4">
+                              <div class="service" data-aos="fade-up" data-aos-duration="750" data-aos-delay="0" data-aos-offset="0">
+                                   <img src="images/service1.jpg" alt="Web Design" class="card-img-top">
+                                   <h3 class="service__title">Web Design</h3>
+                                   <p class="service__description">We create modern and responsive websites that are tailored to your business needs.<a href="#" data-toggle="modal" data-target="#webDesignModal">Learn more</a></p>
+                              </div>
+                         </div>
+                         <div class="col-md-4">
+                              <div class="service" data-aos="fade-up" data-aos-duration="750" data-aos-delay="250">
+                                   <img src="images/service2.jpg" alt="SEO" class="card-img-top">
+                                   <h3 class="service__title">SEO</h3>
+                                   <p class="service__description">We help your website rank higher in search engine results pages and drive more traffic to your site.<a href="#" data-toggle="modal" data-target="#seoModal">Learn more</a></p>
+                              </div>
+                         </div>
+                         <div class="col-md-4">
+                              <div class="service" data-aos="fade-up" data-aos-duration="750" data-aos-delay="500">
+                                   <img src="images/service3.jpg" alt="E-commerce" class="card-img-top">
+                                   <h3 class="service__title">E-commerce</h3>
+                                   <p class="service__description">We build and optimize online stores that maximize your sales potential and enhance your customer experience.<a href="#" data-toggle="modal" data-target="#ecommerceModal">Learn more</a></p>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+
+
+
+
+               <div class="modal fade" id="webDesignModal" tabindex="-1" role="dialog" aria-labelledby="webDesignModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                         <div class="modal-content">
+                              <div class="modal-header">
+                                   <h5 class="modal-title" id="webDesignModalLabel">Web Design</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                              </div>
+                              <div class="modal-body">
+                                   <p>We create modern and responsive websites that are tailored to your business needs. Our team of designers and developers work closely with you to ensure your website meets all your requirements and reflects your brand's unique identity. We offer a range of services, including:</p>
+                                   <ul>
+                                        <li>Custom website design</li>
+                                        <li>Responsive web design</li>
+                                        <li>E-commerce website design</li>
+                                        <li>Website maintenance and support</li>
+                                   </ul>
+                                   <p><a data-dismiss="modal" href="#" data-toggle="modal" data-target="#contactModal">Contact us</a> today to learn more about our web design services.</p>
+                              </div>
+                              <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+               <!-- SEO Modal -->
+               <div class="modal fade" id="seoModal" tabindex="-1" role="dialog" aria-labelledby="seoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                         <div class="modal-content">
+                              <div class="modal-header">
+                                   <h5 class="modal-title" id="seoModalLabel">SEO</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                   </button>
+                              </div>
+                              <div class="modal-body">
+                                   <p>We help your website rank higher in search engine results pages and drive more traffic to your site. Our SEO experts use the latest techniques and tools to optimize your website and improve your online visibility. We offer a range of services, including:</p>
+                                   <ul>
+                                        <li>Keyword research</li>
+                                        <li>On-page optimization</li>
+                                        <li>Off-page optimization</li>
+                                        <li>Local SEO</li>
+                                   </ul>
+                                   <p><a data-dismiss="modal" href="#" data-toggle="modal" data-target="#contactModal">Contact us</a> today to learn more about our SEO services.</p>
+                              </div>
+                              <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <!-- E-commerce Modal -->
+               <div class="modal fade" id="ecommerceModal" tabindex="-1" role="dialog" aria-labelledby="ecommerceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                         <div class="modal-content">
+                              <div class="modal-header">
+                                   <h5 class="modal-title" id="ecommerceModalLabel">E-commerce</h5>
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                   </button>
+                              </div>
+                              <div class="modal-body">
+                                   <p>We build and optimize online stores that maximize your sales potential and enhance your customer experience. Our e-commerce solutions are tailored to your business needs and designed to improve your online presence and increase your revenue. We offer a range of services, including:</p>
+                                   <ul>
+                                        <li>E-commerce website design</li>
+                                        <li>Shopping cart integration</li>
+                                        <li>Payment gateway integration</li>
+                                        <li>Product catalog management</li>
+                                   </ul>
+                                   <p><a data-dismiss="modal" href="#" data-toggle="modal" data-target="#contactModal">Contact us</a> today to learn more about our e-commerce services.</p>
+                              </div>
+                              <div class="modal-footer">
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+
+          <!-- Contact Modal -->
+
+          <!-- Modal -->
+          <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+
+                         <!-- Modal header -->
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                   <span aria-hidden="true">&times;</span>
+                              </button>
+                         </div>
+
+                         <!-- Modal body -->
+                         <!-- Modal body -->
+                         <div class="modal-body">
+                              <form action="Sendemail.jsp" method="post">
+                                   <div class="form-group">
+                                        <label for="nameInput">Name</label>
+                                        <input type="text" class="form-control" id="nameInput" name="nameInput" placeholder="Enter your name">
+                                   </div>
+                                   <div class="form-group">
+                                        <label for="emailInput">Email address</label>
+                                        <input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="Enter your email" required>
+                                   </div>
+                                   <div class="form-group">
+                                        <label for="messageInput">Message</label>
+                                        <textarea class="form-control" id="messageInput" name="messageInput" rows="5" placeholder="Enter your message"></textarea>
+                                   </div>
+                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                   <button type="submit" class="btn btn-primary">Send message</button>
+                              </form>
+                         </div>
+
+                    </div>
+               </div>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <br><br>
+          <br>
+
+          <!-- Footer Section -->
+          <footer>
+               <div class="container">
+                    <div class="row">
+                         <div class="col-md-12"><center>
+                                   <p>&copy; 2023 M M Aatifulla Baig</p>
+                              </center>
+                         </div>
+                    </div>
+               </div>
+          </footer>
+          <!-- Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+     </body>
+</html>
